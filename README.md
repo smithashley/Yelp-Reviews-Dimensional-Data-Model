@@ -1,7 +1,9 @@
 # Yelp-Reviews-Dimensional-Data-Model
 
 ## About the dataset
-Yelp crowd sources reviews of local businesses. This dataset is a subset of businesses, reviews, and user data across 10 metropolitan areas: Montreal, Calgary, Toronto, Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison, and Cleveland. Only reviews that Yelp recommended at the time of data collection were included. This amounts to 8,021,122 reviews and 209,393 businesses.
+Yelp crowd sources reviews of local businesses. 
+This dataset is a subset of businesses, reviews, and user data across 10 metropolitan areas: Montreal, Calgary, Toronto, Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison, and Cleveland. Only reviews that Yelp recommended at the time of data collection were included. 
+This amounts to 8,021,122 reviews and 209,393 businesses.
 
 ## ETL Steps
 ![]()
