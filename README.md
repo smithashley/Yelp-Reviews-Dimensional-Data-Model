@@ -23,4 +23,4 @@ Transform with Spark, send to DW, model with Visual Studio
 ## Use case
 - Help drive traffic to Business Page with Ads 
 - “Yelp Ads puts your business in front of consumers nearby who are looking to make a purchase. 82% of Yelp users visit intending to buy a product or service and 89% of those who buy do so within a week, according to Nielsen.”
-- Create queries to find businesses with the lowest review counts in their category.
+- Ex. create queries to find businesses with the lowest review counts in their category.
