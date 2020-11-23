@@ -3,14 +3,21 @@
 ## About the dataset
 - Yelp crowd sources reviews of local businesses. 
 - This dataset is a subset of businesses, reviews, and user data across 10 metropolitan areas: Montreal, Calgary, Toronto, Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison, and Cleveland. Only reviews that Yelp recommended at the time of data collection were included. 
-- This amounts to 8,021,122 reviews and 209,393 businesses.
+- This amounts to 8,021,122 reviews of 209,393 businesses.
+- Dataset is available here: https://www.yelp.com/dataset
 
-## ETL Steps
-![]()
-Transform with Spark, send to DW, model with Visual Studio
+## Use case
+- Use Ads to help drive traffic to businesses with a lower review count
+- “Yelp Ads puts your business in front of consumers nearby who are looking to make a purchase. 82% of Yelp users visit intending to buy a product or service and 89% of those who buy do so within a week, according to Nielsen.”
+
+## Objective
+![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/yd_diagram.png)
+- Transform the JSON data 
+- Load data to Azure Synapse Analytics where queries can be run to find businesses to target
+- Create dimensional data model to show entity relationships
 
 ## Dimensional model
-![]()
+![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/dim_model.png)
 - Identify the business process: Ad Sales
 - Identify the grain: Individual customer review
 - Choose the dimensions
@@ -20,7 +27,4 @@ Transform with Spark, send to DW, model with Visual Studio
     - Where: Business
 - Choose the measure(s): Review stars
 
-## Use case
-- Help drive traffic to Business Page with Ads 
-- “Yelp Ads puts your business in front of consumers nearby who are looking to make a purchase. 82% of Yelp users visit intending to buy a product or service and 89% of those who buy do so within a week, according to Nielsen.”
-- Ex. create queries to find businesses with the lowest review counts in their category
+
