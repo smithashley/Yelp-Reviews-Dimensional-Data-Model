@@ -13,7 +13,7 @@
 ## Objective
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/yd_diagram.png)
 - Transform the JSON data 
-- Load data to Azure Synapse Analytics where queries can be run to find businesses to target
+- Load tables to Azure Synapse Analytics where we can run queries 
 - Create dimensional data model to show entity relationships
 
 ## Dimensional model
