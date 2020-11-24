@@ -1,5 +1,5 @@
 // Databricks notebook source
-import org.apache.spark.sql.functions.{col, split}
+import org.apache.spark.sql.functions.col
 import org.apache.spark.sql.types.IntegerType
 import org.apache.spark.sql.types.FloatType
 import org.apache.spark.sql.types.DateType
