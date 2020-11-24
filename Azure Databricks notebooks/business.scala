@@ -36,12 +36,12 @@ businessDF.printSchema()
 
 // COMMAND ----------
 
-//Create dataframe for Categories dimension
+//Create dataframe for categories dimension
 val cDF = df.select("business_id", "categories")
 
 // COMMAND ----------
 
-//Since there can only be only value pero column, split categories
+//There can only be only value per column, split categories
 val categoriesDF = cDF.withColumn("category_1", split(col("categories"),",").getItem(0))
   .withColumn("category_2", split(col("categories"),",").getItem(1))
   .withColumn("category_3", split(col("categories"),",").getItem(2))
