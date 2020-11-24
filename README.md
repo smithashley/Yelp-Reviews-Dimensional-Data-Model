@@ -13,9 +13,9 @@
 - Dataset is available here: https://www.yelp.com/dataset
 
 ## Use case
+- “Yelp Ads puts your business in front of consumers nearby who are looking to make a purchase. 82% of Yelp users visit intending to buy a product or service and 89% of those who buy do so within a week, according to Nielsen.”
 - Yelp crowd sources reviews of local businesses
 - Use Ads to help drive traffic to businesses with a lower review count
-- “Yelp Ads puts your business in front of consumers nearby who are looking to make a purchase. 82% of Yelp users visit intending to buy a product or service and 89% of those who buy do so within a week, according to Nielsen.”
 
 ## Dimensional model
 - Identify the business process: Ad Sales
