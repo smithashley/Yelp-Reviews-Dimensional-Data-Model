@@ -27,4 +27,4 @@
     - Where: Business
 - Choose the measure(s): Review stars
 
-![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/dim_model.png)
+![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/dim_data_model.png)
