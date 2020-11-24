@@ -4,7 +4,7 @@
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/yd_diagram.png)
 
 - Transform the JSON data 
-- Load tables to Azure Synapse Analytics where we can run queries 
+- Load tables to Azure Synapse Analytics
 - Create dimensional data model to show entity relationships
 
 ## About the dataset
