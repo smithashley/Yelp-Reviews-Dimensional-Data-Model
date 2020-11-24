@@ -23,7 +23,7 @@
 - Choose the dimensions
     - Who: User
     - What: Category
-    - When: Checkin
+    - When: Date
     - Where: Business
 - Choose the measure(s): Review stars
 
