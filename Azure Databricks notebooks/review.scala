@@ -64,7 +64,7 @@ dateDF.printSchema()
 
 // COMMAND ----------
 
-spark.conf.set("fs.azure.account.key.dwpool.blob.core.windows.net", "/VHS4BskHOFMEsaNqkvxpcrojhkEMK5tv2xLaoeBiP9b6TjhtfyGoL1CfQl59Q6u2aL9Gpps5HYEfECKcIS2Yg==")
+spark.conf.set("fs.azure.account.key.dwpool.blob.core.windows.net", "storage_account_access_key")
 
 // COMMAND ----------
 
@@ -80,7 +80,7 @@ reviewDF.write
 
 dateDF.write
   .format("com.databricks.spark.sqldw")
-  .option("url", "jdbc:sqlserver://afssqldw.database.windows.net:1433;database=afssqldw2;user=afsmithcodes@afssqldw;password=LOVE4life$;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;")
+  .option("url", "jdbc:sqlserver://afssqldw.database.windows.net:1433;database=afssqldw2;user=afsmithcodes@afssqldw;password={password_redacted};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;")
   .option("forwardSparkAzureStorageCredentials", "true")
   .option("dbTable", "date")
   .option("tempDir", "wasbs://yelpdw@dwpool.blob.core.windows.net/tempDirs")
