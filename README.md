@@ -2,7 +2,7 @@
 
 ## About the dataset
 - This dataset is a subset of businesses, reviews, and user data across 10 metropolitan areas: Montreal, Calgary, Toronto, Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison, and Cleveland. Only reviews that Yelp recommended at the time of data collection were included. 
-- This amounts to 8,021,122 reviews of 209,393 businesses.
+- This amounts to 8,021,122 reviews of 209,393 businesses (10 GB of data)
 - Dataset is available here: https://www.yelp.com/dataset
 - Example of the format
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/exjson.png)
