@@ -10,11 +10,12 @@
 ## Objective
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/yd_diagram.png)
 
-- Transform the JSON data to parquet files
+- Extract data, transform the JSON files to parquet files, and load to data warehouse
     - Load Yelp dataset to Azure Blob Storage
     - Configure connection to Azure Blob Storage from Azure Databricks
     - Clean data, creating schema for new tabular format
-- Load tables to Azure Synapse Analytics
+    - Configure connection to Azure Synapse Analytics 
+    - Load tables to Azure Synapse Analytics
 - Create dimensional data model to show entity relationships
 
 ## Use case
