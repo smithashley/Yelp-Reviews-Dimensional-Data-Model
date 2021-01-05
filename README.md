@@ -13,7 +13,7 @@
 - Extract data, transform the JSON files to parquet files, and load to data warehouse
     - Load Yelp dataset to Azure Blob Storage
     - Configure connection to Azure Blob Storage from Azure Databricks
-    - Read data from object storage
+    - Read data from staging area
     - Clean data, creating schema for new tabular format
     - Configure connection to Azure Synapse Analytics 
     - Write data to Azure Synapse Analytics
