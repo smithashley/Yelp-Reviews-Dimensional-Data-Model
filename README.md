@@ -1,5 +1,12 @@
 # Yelp-Reviews-Dimensional-Data-Model
 
+## About the dataset
+- This dataset is a subset of businesses, reviews, and user data across 10 metropolitan areas: Montreal, Calgary, Toronto, Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison, and Cleveland. Only reviews that Yelp recommended at the time of data collection were included. 
+- This amounts to 8,021,122 reviews of 209,393 businesses.
+- Dataset is available here: https://www.yelp.com/dataset
+- Example of the format of the dataset
+![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/exjson.png)
+
 ## Objective
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/yd_diagram.png)
 
@@ -9,13 +16,6 @@
     - Clean data, creating schema for new tabular format
 - Load tables to Azure Synapse Analytics
 - Create dimensional data model to show entity relationships
-
-## About the dataset
-- This dataset is a subset of businesses, reviews, and user data across 10 metropolitan areas: Montreal, Calgary, Toronto, Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison, and Cleveland. Only reviews that Yelp recommended at the time of data collection were included. 
-- This amounts to 8,021,122 reviews of 209,393 businesses.
-- Dataset is available here: https://www.yelp.com/dataset
-- Example of format for the dataset
-![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/jsonexample.png)
 
 ## Use case
 - “Yelp Ads puts your business in front of consumers nearby who are looking to make a purchase. 82% of Yelp users visit intending to buy a product or service and 89% of those who buy do so within a week, according to Nielsen.”
