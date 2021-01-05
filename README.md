@@ -4,13 +4,13 @@
 - This dataset is a subset of businesses, reviews, and user data across 10 metropolitan areas: Montreal, Calgary, Toronto, Pittsburgh, Charlotte, Urbana-Champaign, Phoenix, Las Vegas, Madison, and Cleveland. Only reviews that Yelp recommended at the time of data collection were included. 
 - This amounts to 8,021,122 reviews of 209,393 businesses.
 - Dataset is available here: https://www.yelp.com/dataset
-- Example of the format of the dataset
+- Example of the format
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/exjson.png)
 
 ## Objective
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/yd_diagram.png)
 
-- Transform the JSON data to parquet file
+- Transform the JSON data to parquet files
     - Load Yelp dataset to Azure Blob Storage
     - Configure connection to Azure Blob Storage from Azure Databricks
     - Clean data, creating schema for new tabular format
@@ -33,3 +33,6 @@
 - Choose the measure(s): Review stars
 
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/dim_data_model.png)
+
+## Improvements that could be made
+- Loading JSON data to a NoSQL database, like Azure Cosmos DB, instead of Azure Blob Storage
