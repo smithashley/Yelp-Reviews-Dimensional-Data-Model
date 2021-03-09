@@ -35,6 +35,3 @@
 - Choose the measure(s): Review stars
 
 ![](https://github.com/smithashley/Yelp-Reviews-Dimensional-Data-Model/blob/main/images/dim_data_model.png)
-
-## Improvements that could be made
-- Loading JSON data to a NoSQL database, like Azure Cosmos DB, instead of Azure Blob Storage
